@@ -33,11 +33,7 @@ const router = createRouter({
                     name: 'invalidstate',
                     component: () => import('@/views/uikit/InvalidState.vue')
                 },
-                {
-                    path: '/uikit/button',
-                    name: 'button',
-                    component: () => import('@/views/uikit/Button.vue')
-                },
+               
                 {
                     path: '/uikit/table',
                     name: 'table',
